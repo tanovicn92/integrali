@@ -1,170 +1,209 @@
 <html>
 <head>
 <title> PISMENI DEO ISPITA </title>
+<meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
 <script src="main.js">
 </script>
 
 </head>
 <body>
-<button onclick="prikaziFunkcije()"> <P id="funk"> Sakrij funkcije </P> </button>
 
-<div id="FunkcijeDIV">
-<h1> FUNKCIJE </h1>
-<img src="funkcije/1.PNG">   </br>
-<img src="funkcije/2.PNG">   </br>
-<img src="funkcije/3.PNG">   </br>
-<img src="funkcije/4.PNG">   </br>
-<img src="funkcije/5.PNG">   </br>
-<img src="funkcije/6.PNG">   </br>
-<img src="funkcije/7.PNG">   </br>
-<img src="funkcije/8.PNG">   </br>
-<img src="funkcije/9.PNG">   </br>
-<img src="funkcije/10.PNG">   </br>
-<img src="funkcije/11.PNG">   </br>
-<img src="funkcije/12.PNG">   </br>
-<img src="funkcije/13.PNG">   </br>
-<img src="funkcije/14.PNG">   </br>
-<img src="funkcije/15.PNG">   </br>
-</div> </br> 
-<button onclick="prikaziIntegrale()"> <P id="integrali"> Sakrij integrale </P> </button>
-<div id="IntegraliDIV">
-<h1> INTEGRALI </h1>
-<img src="integrali/1.PNG">   </br>
-<img src="integrali/2.PNG">   </br>
-<img src="integrali/3.PNG">   </br>
-<img src="integrali/4.PNG">   </br>
-<img src="integrali/5.PNG">   </br>
-<img src="integrali/6.PNG">   </br>
-<img src="integrali/7.PNG">   </br>
-<img src="integrali/8.PNG">   </br>
-<img src="integrali/9.PNG">   </br>
-<img src="integrali/10.PNG">   </br>
-<img src="integrali/11.PNG">   </br>
-<img src="integrali/12.PNG">   </br>
-<img src="integrali/13.PNG">   </br>
-<img src="integrali/14.PNG">   </br>
-<img src="integrali/15.PNG">   </br>
-<img src="integrali/16.PNG">   </br>
-</div> </br> 
-<button onclick="prikaziDiferencijalne()"> <P id="diferencijalne"> Sakrij diferencijalne </P> </button>
-<div id="DiferencijalneDIV">
-<h1> DIFERENCIJALNE JEDNAČINE </h1>
-<img src="diferencijalne_jednacine_I_deo/1.PNG">   </br>
-<img src="diferencijalne_jednacine_I_deo/2.PNG">   </br>
-<img src="diferencijalne_jednacine_I_deo/3.PNG">   </br>
-<img src="diferencijalne_jednacine_I_deo/4.PNG">   </br>
-<img src="diferencijalne_jednacine_I_deo/5.PNG">   </br>
-<img src="diferencijalne_jednacine_I_deo/6.PNG">   </br>
-<img src="diferencijalne_jednacine_I_deo/7.PNG">   </br>
-<img src="diferencijalne_jednacine_II_deo/1.PNG">   </br>
-<img src="diferencijalne_jednacine_II_deo/2.PNG">   </br>
-<img src="diferencijalne_jednacine_II_deo/3.PNG">   </br>
-<img src="diferencijalne_jednacine_II_deo/4.PNG">   </br>
-<img src="diferencijalne_jednacine_II_deo/5.PNG">   </br>
-<img src="diferencijalne_jednacine_II_deo/6.PNG">   </br>
-<img src="diferencijalne_jednacine_II_deo/7.PNG">   </br>
-<img src="diferencijalne_jednacine_II_deo/8.PNG">   </br>
-</div> </br> <button onclick="prikaziEkstreme()"> <P id="ekstremi"> Sakrij Ekstreme </P> </button>
-<div id="EkstremiDIV">
-<h1> LOKALNI EKSTREMI </h1>
-<img src="lokalni_ekstremi/1.PNG">   </br>
-<img src="lokalni_ekstremi/2.PNG">   </br>
-<img src="lokalni_ekstremi/3.PNG">   </br>
-<img src="lokalni_ekstremi/4.PNG">   </br>
-<img src="lokalni_ekstremi/5.PNG">   </br>
-<img src="lokalni_ekstremi/6.PNG">   </br>
-<img src="lokalni_ekstremi/7.PNG">   </br>
-<img src="lokalni_ekstremi/8.PNG">   </br>
-<img src="lokalni_ekstremi/9.PNG">   </br>
-<img src="lokalni_ekstremi/10.PNG">   </br>
-<img src="lokalni_ekstremi/11.PNG">   </br>
-<img src="lokalni_ekstremi/12.PNG">   </br>
-<img src="lokalni_ekstremi/13.PNG">   </br>
-<img src="lokalni_ekstremi/14.PNG">   </br>
-<img src="lokalni_ekstremi/15.PNG">   </br>
-</div> </br> <button onclick="prikaziJednacine()"> <P id="jednacine"> </P> </button>
-<div id="JednacineDIV">
-<h1> SISTEMI JEDNAČINA I RANG MATRICE </h1>
-<img src="sistemi_jednacina_i_rang/1.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/2.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/3.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/4.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/5.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/6.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/7.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/8.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/9.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/10.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/11.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/12.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/13.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/14.PNG">   </br>
-<img src="sistemi_jednacina_i_rang/15.PNG">   </br>
-</div> </br> <button onclick="prikaziRelacije()"> <P id="relacije"> </P> </button>
-<div id="RelacijeDIV">
-<h1> RELACIJE I FUNKCIJE </h1>
-<img src="relacije_i_funkcije/1.PNG">   </br>
-<img src="relacije_i_funkcije/2.PNG">   </br>
-<img src="relacije_i_funkcije/3.PNG">   </br>
-<img src="relacije_i_funkcije/4.PNG">   </br>
-<img src="relacije_i_funkcije/5.PNG">   </br>
-<img src="relacije_i_funkcije/6.PNG">   </br>
-<img src="relacije_i_funkcije/7.PNG">   </br>
-</div> </br> <button onclick="prikaziNizove()"> <P id="nizovi"> </P> </button>
-<div id="NizoviDIV">
-<h1> NIZOVI I REDOVI </h1>
-<img src="nizovi_i_redovi/1.PNG">   </br>
-<img src="nizovi_i_redovi/2.PNG">   </br>
-<img src="nizovi_i_redovi/3.PNG">   </br>
-<img src="nizovi_i_redovi/4.PNG">   </br>
-<img src="nizovi_i_redovi/5.PNG">   </br>
-<img src="nizovi_i_redovi/6.PNG">   </br>
-<img src="nizovi_i_redovi/7.PNG">   </br>
-<img src="nizovi_i_redovi/8.PNG">   </br>
+<table>
 
-</div> </br> <button onclick="prikaziTejlora()"> <P id="tejlor"> </P> </button>
-<div id="TejlorDIV">
-<h1> TEJLOROV I MAKLORENOV POLINOM </h1>
-<img src="Tejlor_i_Makloren/1.PNG">   </br>
-<img src="Tejlor_i_Makloren/2.PNG">   </br>
-<img src="Tejlor_i_Makloren/3.PNG">   </br>
-<img src="Tejlor_i_Makloren/4.PNG">   </br>
-<img src="Tejlor_i_Makloren/5.PNG">   </br>
-</div> </br> <button onclick="prikaziTeoreme()"> <P id="teoreme"> </P> </button>
-<div id="TeoremeDIV">
-<h1> TEOREME DIFERENCIJALNOG RAČUNA I PRIBLIŽNE VREDNOSTI </h1>
-<img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/1.PNG">   </br>
-<img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/2.PNG">   </br>
-<img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/3.PNG">   </br>
-<img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/4.PNG">   </br>
-<img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/5.PNG">   </br>
-<img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/6.PNG">   </br>
-<img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/7.PNG">   </br>
-<img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/8.PNG">   </br>
-<img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/9.PNG">   </br>
-</div> </br> <button onclick="prikaziVerovatnocu()"> <P id="verovatnoca"> </P> </button>
-<div id="VerovatnocaDIV">
-<h1> VEROVATNOĆA </h1>
-<img src="verovatnoca/1.PNG">   </br>
-<img src="verovatnoca/2.PNG">   </br>
-<img src="verovatnoca/3.PNG">   </br>
-<img src="verovatnoca/4.PNG">   </br>
-<img src="verovatnoca/5.PNG">   </br>
-<img src="verovatnoca/6.PNG">   </br>
-<img src="verovatnoca/7.PNG">   </br>
-</div> </br> <button onclick="prikaziOstale()"> <P id="ostali"> </P> </button>
-<div id="OstaliDIV">
-<h1> OSTALI ZADACI </h1>
-<img src="ostalo/1.PNG">   </br>
-<img src="ostalo/2.PNG">   </br>
-<img src="ostalo/3.PNG">   </br>
-<img src="ostalo/4.PNG">   </br>
-<img src="ostalo/5.PNG">   </br>
-<img src="ostalo/6.PNG">   </br>
-<img src="ostalo/7.PNG">   </br>
-</div> </br> <button onclick="prikazi()"> <P id=""> </P> </button>
+<tr>
+  <td> <button onclick="prikaziFunkcije()"> <P id="funk"> Prikaži funkcije </P> </button>
+ </td>
+  <td> <div id="FunkcijeDIV">
+  <h1> FUNKCIJE </h1>
+  <img src="funkcije/1.PNG">   </br>
+  <img src="funkcije/2.PNG">   </br>
+  <img src="funkcije/3.PNG">   </br>
+  <img src="funkcije/4.PNG">   </br>
+  <img src="funkcije/5.PNG">   </br>
+  <img src="funkcije/6.PNG">   </br>
+  <img src="funkcije/7.PNG">   </br>
+  <img src="funkcije/8.PNG">   </br>
+  <img src="funkcije/9.PNG">   </br>
+  <img src="funkcije/10.PNG">   </br>
+  <img src="funkcije/11.PNG">   </br>
+  <img src="funkcije/12.PNG">   </br>
+  <img src="funkcije/13.PNG">   </br>
+  <img src="funkcije/14.PNG">   </br>
+  <img src="funkcije/15.PNG">   </br>
+  </div></td>
+</tr>
+<tr>
+  <td><button onclick="prikaziIntegrale()"> <P id="integrali"> Prikaži integrale </P> </button>
+ </td>
+  <td>
+  <div id="IntegraliDIV">
+  <h1> INTEGRALI </h1>
+  <img src="integrali/1.PNG">   </br>
+  <img src="integrali/2.PNG">   </br>
+  <img src="integrali/3.PNG">   </br>
+  <img src="integrali/4.PNG">   </br>
+  <img src="integrali/5.PNG">   </br>
+  <img src="integrali/6.PNG">   </br>
+  <img src="integrali/7.PNG">   </br>
+  <img src="integrali/8.PNG">   </br>
+  <img src="integrali/9.PNG">   </br>
+  <img src="integrali/10.PNG">   </br>
+  <img src="integrali/11.PNG">   </br>
+  <img src="integrali/12.PNG">   </br>
+  <img src="integrali/13.PNG">   </br>
+  <img src="integrali/14.PNG">   </br>
+  <img src="integrali/15.PNG">   </br>
+  <img src="integrali/16.PNG">   </br>
+  </div></td>
+</tr>
+<tr>
+  <td> <button onclick="prikaziDiferencijalne()"> <P id="diferencijalne"> Prikaži diferencijalne jednačine </P> </button> </td>
+  <td><div id="DiferencijalneDIV">
+  <h1> DIFERENCIJALNE JEDNAČINE </h1>
+  <img src="diferencijalne_jednacine_I_deo/1.PNG">   </br>
+  <img src="diferencijalne_jednacine_I_deo/2.PNG">   </br>
+  <img src="diferencijalne_jednacine_I_deo/3.PNG">   </br>
+  <img src="diferencijalne_jednacine_I_deo/4.PNG">   </br>
+  <img src="diferencijalne_jednacine_I_deo/5.PNG">   </br>
+  <img src="diferencijalne_jednacine_I_deo/6.PNG">   </br>
+  <img src="diferencijalne_jednacine_I_deo/7.PNG">   </br>
+  <img src="diferencijalne_jednacine_II_deo/1.PNG">   </br>
+  <img src="diferencijalne_jednacine_II_deo/2.PNG">   </br>
+  <img src="diferencijalne_jednacine_II_deo/3.PNG">   </br>
+  <img src="diferencijalne_jednacine_II_deo/4.PNG">   </br>
+  <img src="diferencijalne_jednacine_II_deo/5.PNG">   </br>
+  <img src="diferencijalne_jednacine_II_deo/6.PNG">   </br>
+  <img src="diferencijalne_jednacine_II_deo/7.PNG">   </br>
+  <img src="diferencijalne_jednacine_II_deo/8.PNG">   </br>
+  </div> </td>
+</tr>
+<tr>
+  <td><button onclick="prikaziEkstreme()"> <P id="ekstremi"> Prikaži Ekstreme </P> </button> </td>
+  <td> <div id="EkstremiDIV">
+  <h1> LOKALNI EKSTREMI </h1>
+  <img src="lokalni_ekstremi/1.PNG">   </br>
+  <img src="lokalni_ekstremi/2.PNG">   </br>
+  <img src="lokalni_ekstremi/3.PNG">   </br>
+  <img src="lokalni_ekstremi/4.PNG">   </br>
+  <img src="lokalni_ekstremi/5.PNG">   </br>
+  <img src="lokalni_ekstremi/6.PNG">   </br>
+  <img src="lokalni_ekstremi/7.PNG">   </br>
+  <img src="lokalni_ekstremi/8.PNG">   </br>
+  <img src="lokalni_ekstremi/9.PNG">   </br>
+  <img src="lokalni_ekstremi/10.PNG">   </br>
+  <img src="lokalni_ekstremi/11.PNG">   </br>
+  <img src="lokalni_ekstremi/12.PNG">   </br>
+  <img src="lokalni_ekstremi/13.PNG">   </br>
+  <img src="lokalni_ekstremi/14.PNG">   </br>
+  <img src="lokalni_ekstremi/15.PNG">   </br>
+  </div> </td>
+</tr>
+<tr>
+  <td> <button onclick="prikaziJednacine()"> <P id="jednacine"> Prikaži sisteme jednačina </P> </button> </td>
+  <td>
+  <div id="JednacineDIV">
+  <h1> SISTEMI JEDNAČINA I RANG MATRICE </h1>
+  <img src="sistemi_jednacina_i_rang/1.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/2.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/3.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/4.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/5.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/6.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/7.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/8.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/9.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/10.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/11.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/12.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/13.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/14.PNG">   </br>
+  <img src="sistemi_jednacina_i_rang/15.PNG">   </br>
+  </div> </td>
+</tr>
+<tr>
+  <td> <button onclick="prikaziRelacije()"> <P id="relacije"> Prikaži relacije i funkcije </P> </button> </td>
+  <td>
+  <div id="RelacijeDIV">
+  <h1> RELACIJE I FUNKCIJE </h1>
+  <img src="relacije_i_funkcije/1.PNG">   </br>
+  <img src="relacije_i_funkcije/2.PNG">   </br>
+  <img src="relacije_i_funkcije/3.PNG">   </br>
+  <img src="relacije_i_funkcije/4.PNG">   </br>
+  <img src="relacije_i_funkcije/5.PNG">   </br>
+  <img src="relacije_i_funkcije/6.PNG">   </br>
+  <img src="relacije_i_funkcije/7.PNG">   </br>
+  </div></td>
+</tr>
+<tr>
+  <td> <button onclick="prikaziNizove()"> <P id="nizovi"> Prikaži nizove i redove </P> </button> </td>
+  <td> <div id="NizoviDIV">
+  <h1> NIZOVI I REDOVI </h1>
+  <img src="nizovi_i_redovi/1.PNG">   </br>
+  <img src="nizovi_i_redovi/2.PNG">   </br>
+  <img src="nizovi_i_redovi/3.PNG">   </br>
+  <img src="nizovi_i_redovi/4.PNG">   </br>
+  <img src="nizovi_i_redovi/5.PNG">   </br>
+  <img src="nizovi_i_redovi/6.PNG">   </br>
+  <img src="nizovi_i_redovi/7.PNG">   </br>
+  <img src="nizovi_i_redovi/8.PNG">   </br>
 
+  </div></td>
+</tr>
+<tr>
+  <td> <button onclick="prikaziTejlora()"> <P id="tejlor"> Prikaži Tejlorov i Maklorenov red </P> </button> </td>
+  <td> <div id="TejlorDIV">
+  <h1> TEJLOROV I MAKLORENOV POLINOM </h1>
+  <img src="Tejlor_i_Makloren/1.PNG">   </br>
+  <img src="Tejlor_i_Makloren/2.PNG">   </br>
+  <img src="Tejlor_i_Makloren/3.PNG">   </br>
+  <img src="Tejlor_i_Makloren/4.PNG">   </br>
+  <img src="Tejlor_i_Makloren/5.PNG">   </br>
+  </div> </td>
+</tr>
+<tr>
+  <td> <button onclick="prikaziTeoreme()"> <P id="teoreme"> Prikaži teoreme diferencijalnog računa </P> </button> </td>
+  <td> <div id="TeoremeDIV">
+  <h1> TEOREME DIFERENCIJALNOG RAČUNA I PRIBLIŽNE VREDNOSTI </h1>
+  <img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/1.PNG">   </br>
+  <img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/2.PNG">   </br>
+  <img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/3.PNG">   </br>
+  <img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/4.PNG">   </br>
+  <img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/5.PNG">   </br>
+  <img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/6.PNG">   </br>
+  <img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/7.PNG">   </br>
+  <img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/8.PNG">   </br>
+  <img src="teoreme_diferencijalnog_racuna_i_priblizne_vrednosti/9.PNG">   </br>
+  </div> </td>
+</tr>
+<tr>
+  <td> <button onclick="prikaziVerovatnocu()"> <P id="verovatnoca"> Prikaži verovatnoću </P> </button> </td>
+  <td> <div id="VerovatnocaDIV">
+  <h1> VEROVATNOĆA </h1>
+  <img src="verovatnoca/1.PNG">   </br>
+  <img src="verovatnoca/2.PNG">   </br>
+  <img src="verovatnoca/3.PNG">   </br>
+  <img src="verovatnoca/4.PNG">   </br>
+  <img src="verovatnoca/5.PNG">   </br>
+  <img src="verovatnoca/6.PNG">   </br>
+  <img src="verovatnoca/7.PNG">   </br>
+  </div> </td>
+</tr>
+<tr>
+  <td> <button onclick="prikaziOstale()"> <P id="ostali"> Prikaži ostale zadatke </P> </button> </td>
+  <td> <div id="OstaliDIV">
+  <h1> OSTALI ZADACI </h1>
+  <img src="ostalo/1.PNG">   </br>
+  <img src="ostalo/2.PNG">   </br>
+  <img src="ostalo/3.PNG">   </br>
+  <img src="ostalo/4.PNG">   </br>
+  <img src="ostalo/5.PNG">   </br>
+  <img src="ostalo/6.PNG">   </br>
+  <img src="ostalo/7.PNG">   </br>
+  </div> </td>
+</tr>
+
+</table>
 
 </body>
 </html>

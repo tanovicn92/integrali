@@ -26,6 +26,7 @@ background-color: #93bcff;
 color: #456F74;
 border: 0;
 width: 100%;
+height: 100%;
 }
 button:hover{
 border-radius: 8px;

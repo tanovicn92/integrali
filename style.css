@@ -1,5 +1,37 @@
-td div {
+.skriven {
 display: none;
+}
+.plava_pozadina {
+  background-color: #93bcff;
+}
 
-
+.tamno_plava_pozadina{
+  background-color: #456F74;
+}
+table {
+  border-spacing: 0;
+}
+table td {
+  border: solid #EB5937;
+  margin: 0;
+  border-spacing: 0;
+}
+body {
+  margin: 0;
+  background-color: #D3CBBD;
+}
+button{
+border-radius: 8px;
+background-color: #93bcff;
+color: #456F74;
+border: 0;
+width: 100%;
+}
+button:hover{
+border-radius: 8px;
+background-color: #456F74;
+color: #EB5937;
+}
+img {
+  width: 100%;
 }

@@ -10,6 +10,8 @@ display: none;
 }
 table {
   border-spacing: 0;
+  width: 90%;
+  margin: auto;
 }
 table td {
   border: solid #EB5937;
@@ -26,7 +28,6 @@ background-color: #93bcff;
 color: #456F74;
 border: 0;
 width: 100%;
-height: 200px;
 }
 button:hover{
 border-radius: 8px;

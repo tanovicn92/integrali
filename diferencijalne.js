@@ -111,6 +111,87 @@ function prikaziHomogeneResenja2() {
 
 
 
+function prikaziLinearne() {
+  let x = document.getElementById("LinearneDIV");
+  let Linearne = document.getElementById("linearne");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+	Linearne.innerText="Prikaži linearne d.j.";
+  } else {
+    x.style.display = "block";
+	document.getElementById("linearne").innerText="Sakrij linearne d.j.";
+  }
+}
+function prikaziLinearne1() {
+  let x = document.getElementById("Linearne1DIV");
+  let Linearne1 = document.getElementById("linearne1");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+	Linearne1.innerText="Prikaži prvi zadatak";
+  } else {
+    x.style.display = "block";
+	document.getElementById("linearne1").innerText="Sakrij prvi zadatak";
+  }
+}
+function prikaziLinearne2() {
+  let x = document.getElementById("Linearne2DIV");
+  let Linearne2 = document.getElementById("linearne2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+	Linearne2.innerText="Prikaži drugi zadatak";
+  } else {
+    x.style.display = "block";
+	document.getElementById("linearne2").innerText="Sakrij drugi zadatak";
+  }
+}
+function prikaziLinearneResenja1() {
+  let x = document.getElementById("LinearneResenja1DIV");
+  let LinearneResenja1 = document.getElementById("linearneResenja1");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+	LinearneResenja1.innerText="Prikaži rešenje prvog zadatka";
+  } else {
+    x.style.display = "block";
+	document.getElementById("linearneResenja1").innerText="Sakrij rešenje prvog zadatka";
+  }
+}
+function prikaziLinearneResenja2() {
+  let x = document.getElementById("LinearneResenja2DIV");
+  let LinearneResenja2 = document.getElementById("linearneResenja2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+	LinearneResenja2.innerText="Prikaži rešenje drugog zadatka";
+  } else {
+    x.style.display = "block";
+	document.getElementById("linearneResenja2").innerText="Sakrij rešenje drugog zadatka";
+  }
+}
+function prikaziLinearne3() {
+  let x = document.getElementById("Linearne3DIV");
+  let Linearne3 = document.getElementById("linearne3");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+	Linearne3.innerText="Prikaži treći zadatak";
+  } else {
+    x.style.display = "block";
+	document.getElementById("linearne3").innerText="Sakrij treći zadatak";
+  }
+}
+
+function prikaziLinearneResenja3() {
+  let x = document.getElementById("LinearneResenja3DIV");
+  let LinearneResenja3 = document.getElementById("linearneResenja3");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+	LinearneResenja3.innerText="Prikaži rešenje trećeg zadatka";
+  } else {
+    x.style.display = "block";
+	document.getElementById("linearneResenja3").innerText="Sakrij rešenje trećeg zadatka";
+  }
+}
+
+
+
 function prikaziDiferencijalne() {
   let t = document.getElementById("DiferencijalneDIV");
   let diferencijalne = document.getElementById("diferencijalne");

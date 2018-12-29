@@ -35,6 +35,7 @@ border: 0;
 width: 100%;
 max-width: 300px;
 padding: 10px;
+height: 100%;
 }
 button:hover{
 border-radius: 8px;

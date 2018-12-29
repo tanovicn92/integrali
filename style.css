@@ -33,6 +33,7 @@ background-color: #93bcff;
 color: #456F74;
 border: 0;
 width: 100%;
+max-width: 300px;
 }
 button:hover{
 border-radius: 8px;
